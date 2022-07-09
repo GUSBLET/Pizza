@@ -2,8 +2,17 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Pizza"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Login_Or_Regist/Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style/DockPanel_SingUP_IN.xaml"/>
+                <ResourceDictionary Source="Style/Labels.xaml"/>
+                <ResourceDictionary Source="Style/Buttons.xaml"/>
+                <ResourceDictionary Source="Style/TextBoxs.xaml"/>
+                <!--<ResourceDictionary Source="Style/WorkZoneCreateWindows.xaml"/>
+                <ResourceDictionary Source="Style/ListMenu.xaml"/>-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
